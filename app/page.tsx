@@ -50,3 +50,5 @@ export default async function Blog({ searchParams }: { searchParams: { search: s
     </div>
   )
 }
+
+export const dynamic = 'force-dynamic'
